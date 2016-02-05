@@ -1,0 +1,1984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HovSum.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="DifferenceKan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 294</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Month_CB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CounterGov2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSelectedYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 29</value>
+  </data>
+  <data name="&gt;&gt;CounterKan2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Квартплата </value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GavSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterGav2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;GaoSum.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;CounterGav1.Name" xml:space="preserve">
+    <value>CounterGav1</value>
+  </data>
+  <data name="KvpSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>565, 675</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="CounterGav1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 257</value>
+  </data>
+  <data name="KanSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn2.Name" xml:space="preserve">
+    <value>CounterEEn2</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 24</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGao.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;DifferenceOpa.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 639</value>
+  </data>
+  <data name="KvpSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KvpSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 87</value>
+  </data>
+  <data name="DifferenceEEn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelSelectedMonth.Text" xml:space="preserve">
+    <value>не обрано</value>
+  </data>
+  <data name="Show.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;OpaSum.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="CounterEEn1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="OpaSum.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;labelDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CounterKvp2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;CounterGao1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="CounterOpa2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CounterHov2.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="CounterHov2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 189</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 74</value>
+  </data>
+  <data name="&gt;&gt;CounterGav2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="CounterHov1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 189</value>
+  </data>
+  <data name="CounterHov1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="SumEEn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="DifferenceGao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="labelSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMonth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="labelDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="labelSelectedYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CounterKan1.Name" xml:space="preserve">
+    <value>CounterKan1</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 16</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Каналізація</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 160</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="DifferenceGov.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="DifferenceOpa.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Міс.</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa2.Name" xml:space="preserve">
+    <value>CounterOpa2</value>
+  </data>
+  <data name="&gt;&gt;CounterGao1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelSelectedMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GovSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="CounterGov2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 155</value>
+  </data>
+  <data name="&gt;&gt;Pay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKvp.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="buttonStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 703</value>
+  </data>
+  <data name="&gt;&gt;CounterGao1.Name" xml:space="preserve">
+    <value>CounterGao1</value>
+  </data>
+  <data name="CounterEEn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 53</value>
+  </data>
+  <data name="&gt;&gt;DifferenceOpa.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Month_CB.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="DifferenceEEn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CounterKvp2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CounterHov2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;GovSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 405</value>
+  </data>
+  <data name="CounterGav2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 257</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 69</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelSelectedYear.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;Year_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;CounterGov1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GavSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 257</value>
+  </data>
+  <data name="&gt;&gt;CounterKan1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Month_CB.Name" xml:space="preserve">
+    <value>Month_CB</value>
+  </data>
+  <data name="&gt;&gt;CounterGav1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterGao2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceHov.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 31</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;DifferenceEEn.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="DifferenceHov.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 189</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 226</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value> Газ опалювальн.</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="GovSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 155</value>
+  </data>
+  <data name="CounterKan1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 223</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSelectedYear.Text" xml:space="preserve">
+    <value>не обрано</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="CounterGav1.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeLocale.Name" xml:space="preserve">
+    <value>buttonChangeLocale</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="SumEEn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Pay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterGov2.Name" xml:space="preserve">
+    <value>CounterGov2</value>
+  </data>
+  <data name="OpaSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGav.Name" xml:space="preserve">
+    <value>DifferenceGav</value>
+  </data>
+  <data name="labelSum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Year_CB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonChangeLocale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 29</value>
+  </data>
+  <data name="DifferenceGov.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Month_CB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonStat.Name" xml:space="preserve">
+    <value>buttonStat</value>
+  </data>
+  <data name="CounterKan1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;GovSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="KanSum.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;Show.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DifferenceKan.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKvp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Year_CB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="&gt;&gt;KanSum.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGov.Name" xml:space="preserve">
+    <value>DifferenceGov</value>
+  </data>
+  <data name="DifferenceHov.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceHov.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;HovSum.Name" xml:space="preserve">
+    <value>HovSum</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa1.Name" xml:space="preserve">
+    <value>CounterOpa1</value>
+  </data>
+  <data name="CounterGao2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;CounterHov2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterGav1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SumEEn.Name" xml:space="preserve">
+    <value>SumEEn</value>
+  </data>
+  <data name="CounterGao2.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="DifferenceGao.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>Francais</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Сума</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceKvp.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Газ варильний</value>
+  </data>
+  <data name="DifferenceEEn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 29</value>
+  </data>
+  <data name="Pay.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;CounterGav1.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn1.Name" xml:space="preserve">
+    <value>CounterEEn1</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Тарифи</value>
+  </data>
+  <data name="Pay.Text" xml:space="preserve">
+    <value>Сплатити</value>
+  </data>
+  <data name="Year_CB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="&gt;&gt;CounterGov1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Show.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;CounterGav2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="labelSum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;KanSum.Name" xml:space="preserve">
+    <value>KanSum</value>
+  </data>
+  <data name="CounterOpa1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 158</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HovSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="&gt;&gt;CounterGao1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGao.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;DifferenceEEn.Name" xml:space="preserve">
+    <value>DifferenceEEn</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="GavSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="CounterGao1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;OpaSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMonth.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAABAAAOjc1ACYMAAAeAAAAIhACAB8AAAAfAAAAHwAAACAAAAAfAQAAHwAAAB0A
+        AAAhAQAAIAIAACACAAAhBQAAIwcAACIHAAAiBgAAIgUAACEFAAAiBwAAIAcAACIHAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAYEwAdBgAAOj1BAAEB
+        AQBmdYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABmeIcAAAAAAAAAAAAAAAAAAAAAAAAAIgEABCIADyM3wwsnRfoNLEv2DSpJ+A0s
+        S/gNLEv4DSxM+A0sTPgOLU34Di5O+A4uT/gOLk/4Di5P+A4vUPgOMFH3DjBS9w4wU/cPMVP3DzJU9w8y
+        VfcPMlX3EDNV9xAzVvcQNFf3EDRX9xA0WPcQNFn3EDRZ9xA1WfcQNlr3ETZa9xE2W/cRNlv3ETZb9xE2
+        W/cRNlz3ETZb9xE3XPYQNVv5DilF5wEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAACOwIAABoACh4zyEqG
+        tP9fq+T/WqPa/1qj2/9ao9v/WqPb/1qj2v9ao9v/WqPa/1uj2/9bpNv/W6Tb/1uk2/9bpNz/W6Tb/1ul
+        3P9bpdz/W6Xc/1yl3f9bpdz/XKXd/1yl3f9cpd3/XKXd/1yl3f9cpd3/XKXd/12m3f9dpt3/Xabd/12m
+        3f9dpt3/Xabe/12m3v9dpt7/Xafe/1+q4/9WndL/DS1N4QEBAQFFJQoAAAAAAAAAAAAAAAAAAAAAAAAE
+        OQEAABcACh4zx0yItv9isOn8X6rh/2Wz6P9ls+j/ZbLn/2Wy5/9ksef/Y7Hn/2Ow5/9jsOf/Y6/m/2Kv
+        5v9ir+b/Yq/m/2Kv5v9ir+X/Yq/m/2Kv5v9hr+b/Yq7m/2Kv5/9ir+f/Yq/o/2Kv6P9ir+j/Yq/o/2Gv
+        6P9iruj/Ya7o/2Ku6P9hruf/Ya7o/2Gt5v9hruj/X6rj/2Cs5P5YndL/Di1N3wEBAQFMJwwAAAAAAAAA
+        AAAAAAAAAAAAAAAFOwIAABsACh81x0yJtv9fqub8LmmP/0CLqvo9hab1P4io9kCJqfZAiar2QYur9kGL
+        rPZCjK33QYyt9kGLrvdAiq72P4iu9j6FrvY8g632OoCs9jh9qvY2ean2NHWn9jJypfcwb6L2Lmuf9ytn
+        nfYpZJn2KGGV9iZekfYlXI72I1mL9iJXiPYhVIX2IFSE9yBUhPUcTXv5H1F+/2Kt5/5XnNH/Di5P3wAA
+        AAFJKA4AAAAAAAAAAAAAAAAAAAAAAAAGPgIAAB4ACh82x0yKt/9frOj6LWmO/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIVmK/2Ow
+        6v1XnNH/Di9R4AAAAAFHJQwAAAAAAAAAAAAAAAAAAAAAAAAIQQIAACIACiA3x02KuP9frOj5LWeM/wAA
+        AABOp8wATKbRAAIgQwABFjMAACNIAAAXMwAAHD8ADCE3AAAYOgAOKkIAAA4rAAwhPAAADCcAARs6AAAT
+        KwAGKUkAAAwgAAAXNAAUITAAAAAUAAMTJQAAAAwAABovAAAAAAAAAAgACxMmAA0WKAALFCUAEzpjAAAA
+        AAAAAAAAIlmK/2Ow6fxXndL/DzBS3wAAAAFEJAoAAAAAAAAAAAAAAAAAAAAAAAALQwIAACUACiA3x02L
+        uf9grOf6LWeM/wAAAAAio7IIExwi/wAAAAAcJS3/AAAAABwqM/8AAAAAExwi/wAAAAATHCL/AAAAABMc
+        Iv8AAAAAExwi/wAAAAATHCL/AAAAABMcIv8AAAAAHCoz/wAAAAAcKjP/AAAAABAQEAUaGhoFNjY4BDU2
+        NwQ2NjcEEzlfBwAAAAAAAAAAIVeK/2Kv6f1YndL/DzFT4AAAAAFBIggAAAAAAAAAAAAAAAAAAAAAAAAM
+        RgIAACgACyA5x06Muv9grOf5LWeM/wAAAAAOBAEHHCUt/zRLWfcdJCv6L0dX/x8lLfYqQ1H/Iikx9SU7
+        SP8kLTX1EhQb/xgaIPUUGB3/FRcd+x8qMfUfMDr/Iywz7BwsNv8wO0LUFyQt/zNDTugWICb/NU5d2ntt
+        YAB/lKQAMisjADIqIwAzLCQAEDlkAAQdPQAAAAAAIleI/2Kv6PxYndP/EDJV3wAAAAE/HwcAAAAAAAAA
+        AAAAAAAAAAAAAAANSAIAACsACyE5x06Mu/9fq+b6LWeO/21bPP9tWzz/RV1t/2CLpu1BVWP4ZpWz9kBS
+        X/Vmlrb7QVNh9WGPrftCVmP1O0VV+j1LV/M1QE30P01b92SSsf9FWWj/ZJKx/0VZaP9kkrH/RVlo/2SS
+        sf9FWWj/YYum2m1bPP9tWzz/bVs8/21bPP9tWzz/bVs8/21bPP9tWzz/IFaI/2Kv6P1YntT/EDNX3wAA
+        AAE9HQYAAAAAAAAAAAAAAAAAAAAAAAAQSwIAAC4ACyI6x06OvP9gq+X8KmeQ/5aJfP+XiXz/b5Gj/5TG
+        3v90laj/ndPs/3GSo/+i2vH/cZGj/5/X7P9zkqX/gJ63/3OOof95lav/d5Op/57V7v9zkqX/ntXu/3OS
+        pf+e1e7/c5Kl/57V7v9zkqX/kM3k/5eJfP+XiXz/l4l8/5eJfP+XiXz/l4l8/5eJfP+WiXz/G1OG/2Ow
+        6f5Yn9X/ETRY3wAAAAE8HAUAAAAAAAAAAAAAAAAAAAAAAAASTgIAADIACyM7x0+OvP9grOf6LGWO/wAA
+        AAAAAAAAZoaU/5TN4u9fe4v5n9zu+Fx2hvai4e78XHaI9p7b6Pxcd4j2coqk+l50hfNpgJb1YnqO953b
+        7P9ffI3/nNrs/198jf+c2u3/X3yN/53b7f9ffI3/mtzs/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxdwIAImAADixLx1KWyf9iref5JFiG/wAAAABBAAADJDdE/ztW
+        Z/MlMjvvOFRm/yk2PegzT2H/MD1G5SxHV/81RlDlFhoi/ygtNu0YHCT8JCkz9SUyO+80UWP/AAAAAERe
+        bgA0UWIAVEg9ABYbHwANDxEAAAAAACU6R/8/V2jaJTM85DhUZ/0oNDzjMExe/wAAAAAAAAAAG0l0/2Cs
+        5vxfrOX/IlOC3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0egIAJWMADi1Mx1OWyv9hreb7I1eH/2VW
+        PPpmVTj2U3qU/GSQrPFGZHbvbZ69+EFba+lvocL9RF1u6Gqbuv1IY3XoQU1e+z5JWOw6RVP2RVFi8kVi
+        c+9toMD8Z1c792ZWOfVnVzr2Z1Y59mZWOfZmVjn1ZVU4+FqEoPxhiaLkSWd66mucvPdBW2zna57A/WdY
+        PPhkUzf4GEd0/2Cs5f1grOb/I1aF3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1fQIAJ2UADy5Mx1SW
+        yv9irub8IFWG/5aMgvqejX73dai1/oO5z/pghZL5k9Dk/FR1hfeb2uv+U3OG95fV4/5Yd4n2Y3aO/VJg
+        cfhVZnn7X3KJ+l+CjfmU1er+npCD+KeWhvahkH/3oZCA9qKRgfaejn72m4x++H+4x/58q7/2ZYuX+JHO
+        5PxWdoX3k9fr/qCUh/mYiHn4FURy/2Gt5f5hruj/JFmJ3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4
+        gAIAKWkADy5Nx1SXyv9hr+j5IlSC/wAAAAAAAAAAea26/ozG3Otok6Lol9fq91+El+Ga3Oz8X4Sb3pbW
+        5Pxjh5zeYnWO+1dne+VYaX70YnWP7WeQnOiV1uj9AAAAAJO20QBlmLoAf3VlADdRYwAcKjkAAAAAAIK6
+        x/2Hv9fVbZmn3pXW6/VfhZfck9Tk/AAAAAAAAAAAGkdy/1+s5Pxir+j/JluL3wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAA6gwIAK2wADy5Ox1WYy/9iruf6IVOA/wAAAAAsnZEPWIGZ/2WTsOdOb4PgaJu6+0xp
+        etFonLz/T2t9ymSWtv9Sb4PMO0VV/0FLWtg5Q1L1QEpb6U9vhOBnmbn/AAAAAEhthgJZgZsDgXhqATtN
+        WAMvP0sCAAAAAFmFoP9lj6vOUHKH2mmauvlMaXvNaZy9/wAAAAAAAAAAGEVw/1+s5P1isOj/J16N3wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8hQIALm4AEC9Px1SYy/9ir+j6IFJ//wAAAAAXZo0AAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGUVw/1+s
+        5P1jsuj/KGCO3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9hwIALnAADy9Qx1WZzP9ir+j6IFF9/wAA
+        AAAPOWsAH1KFAC9BSwAnMTkAKjxIAC84PQAaKTIANDs/ABsoMgA4REsAFRccACksMgAaHSIAHiAnAC05
+        QAAoOkYAHjA9AAwiMQA5Q0kAICQlACgtLwA9Z4QAUo20ACc2PwAsOUEAJTE4ACw/SwAxOkEACyE6AAAC
+        DgAAAAAAGERv/1+r5f1ks+n/KmKP3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+iQIAMHIAEDBQx1aa
+        zf9ir+n6H098/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAF0Ru/1+r5P1ltOj/K2WQ3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABB
+        iwIAMnUAETFRx1aazf9jr+j5HU16/wAAAAAAAAAAFB0i/yk6RfMZICXvJDdC/yAnKuIeMDr/Jy803Rko
+        Mv8rNz7eCw4S/yAjKOkQEhX/Ghwi9xohJPAiNED/HyUp3x0tN/88S1ZiKz5LACo6RQAAAAAAAAAAABgQ
+        DAAZDgsEExsg6yY3Q/8eJCjeHi84/wAAAAAAAAAAF0Ns/1+r5Pxmtej/LWaS3wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAABBjQIAM3YAEDFRx1Wazf9ir+n6Hk15/wAAAAAAAAAAQWB2/FZ9l+o7U2PnWIOe9jpQ
+        XeBXgZ77PlVj3VF6lftDXGzdLzhF+jZATeQtNkHzOEJQ7DpSYelYg6D1N01a3lR8mPtTdIltAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAOVRl4FmDnvQ5T13bVHyY+wAAAAAAAAAAGENs/1+q5P1mten/LWiS3wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDjgIANXgAETFSx1aazv9kr+j8Gkt5/2VWOv9oVzr+aZit/nep
+        w/xVeIn8hb7a/UtoefuMyeT+Smh6+4jD3f5QbX77V2h+/klWZftLWmz9VWV6/FR0hfyHwd39Smd4+4fG
+        4/9ueX7waVc6/mhYOv5oWDv+aFg7/mlYO/5oVzr+X4OU+4O82f1Nanr7hcXj/2hZPf5mVTn+Ez9q/1+r
+        5f5ntuj/L2qS3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEjwIANnkAEDFTx1abz/9jsOn6G0p2/5aK
+        f+uikYLcfbG5+47I2+1qk5/pnNzq9l+DlOOh4+z7X4OZ4J3c4/tjhpnhaH2X+lpqfedcb4T0Z3uV7mmR
+        meud3uz2XIGS4Zrb5fuBp76HpJaI2aSXidqmlYXappWF2qGQgdqgkIDbcqCo5Jna6vVghZTfmt3n+6OY
+        jeSZinvkFUFq/1+q5f1nuOn/L2uT3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFkQIAN3sAETJTx1ab
+        z/9jsOr5HEp0/wAAAABSQToIZpat/3aqx/dYfpPzfLfV/1N1iOp+u9j/VXaL5nm10P9YeY3nSlds/0lW
+        aPBEUmT/TVxx+Vh9kfV8t9b/UHGF53mz0P9rl7RiW46uAF6QrgChkYAAoJB/AA0QGAAAAQcAWoWb7Hu1
+        1P9TdYjkfLfV/wAAAAAAAAAAF0Jq/1+p5Pxnuen/MG2S3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG
+        kQIAOHwAETJUx1eb0P9jsOr6G0hy/wAAAAAZVo4JRGV9rlp+lY5JY3SFWH+ZqEpgbnBVfZe6TmJvZVJ4
+        kr1TbHxoMzlFtEFJVHk1PUifOkBNkU1pe4ZYfpipTWJvblR7lLxjgJItYX6QBVByhwZWV1kFVldYBVeP
+        sQZWlLEHSWV4klh/mKRLYW9wTHCJvQAAAAAAAAAAFUBo/1+q5f1ouuj/MG2S3wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAABGkgIAOH0AETJUx1eb0P9jsOr5G0dy/wAAAAAAGDgADjNbAB9CXwAHHzYAH0ZnAAwj
+        NgAVPF8AFSk+AA0xVAARJjkAAAwiAAcUJwABDiIABBIoAAgfNAAhRmUACR8xABI1VQArRFUAGDNGADJM
+        XwADCxcAAwoVAAAdOQAAHDMADiQ4AB9AWQAHFyUACBktAAAAAAAAAAAAFUBo/1+p5Pxpu+n/MG6S3wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGkgIAOH0AETJUx1eb0P9kser6Gkdw/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFD1k/1+p
+        5f1pvOn/MW+R3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFlAIAOX0AETJUx1ec0f9hrub9HU16/xhG
+        cv8bS3f/G0l1/xlHc/8ZR3P/GUdy/xlHcv8ZR3L/GUdy/xlGcv8ZRnH/GUZx/xhFcP8ZRXD/GUVw/xhF
+        b/8YRW7/F0Ru/xdDbf8XQ2z/F0Ns/xdDa/8XQmr/FkFq/xZBaP8WQGj/FT9n/xU/Zv8VPmX/FT9n/xVA
+        aP8TOmD/F0Jq/16o4v5qven/MW+Q3gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEnAEAOH0AETJUx1+o
+        1/9vvOj9U6nh/lWt5v5UrOT9Vazk/VWs5f1VrOX9VKzk/VWs5P1UrOT9VKvk/VSr5P1Uq+T9U6rk/VOq
+        5P1TquT9U6rk/VKp5P1SqeT9Uqnk/lKp5f1SqeT9Uqjk/VGo5P1SqOT9Uqjl/VKo5P1RqOT9Uqjl/VKo
+        5P1SqOT9Uajk/VGo4/5SqOT+Uafh/k6f3P1MqOP9MW6P3fz8/gAAAAAAAAAAAAAAAAAAAAAAAAAAAABF
+        qQIAP4YAETJUy1+o1/9uven/Uqnh/1Oq4/9Uq+T/VKzl/1Wu5/9Wr+j/Vq/o/1aw6v9Xsur/V7Pq/1i0
+        6v9ZtOr/WrXq/1q26v9bt+r/W7fp/1y46f9duen/Xbnp/1276f9du+n/Xbvp/1276f9dvOn/Xbzp/128
+        6f9dvOn/Xrzq/1286f9dvOr/Xrzq/1686v9dvOr/Xrzq/1256f9bwvH/MXCR4wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAjbQEDKWAAEC5LyRU/auUYRXLiGUh05BtKeeUdUH7lH1KC5SFWh+UjWo3lJl6S5Shj
+        luUrZ5vlLmyf5TBxo+U0dablNXmp5Tl+q+U7g67lPYev5T+Kr+VCjbHlQ5Cy5USTsuVFlLPlRpSz5UaV
+        s+VGlbPlRZWy5UWUseVFk7DlRJKv5UOQr+VCjq/lQY2t5T+Kq+U+iKrlPIap5DuDp+M6gqflIlJ4zDQz
+        ygASFhoAAAAAAAAAAAAAAAAAAAAAAACV/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADY/wBTBQAAYl1hACMAAAAUAAAAFgYBAAkA
+        AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAGQAeAAAAOABqfpcAAAAAAAAAAAD///////8AAP///////wAA0AAAAAAH
+        AADQAAAAAAcAANAAAAAABwAA0AAAAAAHAADQ/////wcAAND/////BwAA0JVVVQMHAADQgAAA/wcAANAA
+        AAAABwAA0AAAAAAHAADQwAAA/wcAANDAAAH/BwAA0P///4MHAADQ/////w8AAND//AB/DwAA0MABgQMP
+        AADQwAf/gw8AANAAAAAADwAA0AAAAAAPAADQgAf/ww8AANCAAAADDwAA0Nqv//8PAADQ2ql/bw8AANCA
+        AEEDDwAA0IAAfwMPAADQAAAAAA8AANAAAAAADwAA0MAAfwMPAADQgABBAw8AAND/////DwAA0P////8P
+        AADQ/////w8AANDAAA+DDwAA0MAAD8MPAADQAAAAAA8AANAAAAAADwAA0IAAD8MPAADQgAAAAw8AAND/
+        ////DwAA0P////8PAADQAAAAAA8AANAAAAAADwAA0AAAAAAPAADQAAAAAA8AAP///////wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="CounterKvp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;DifferenceEEn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 364</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGov.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;KvpSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterGao2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="SumEEn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 53</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp2.Name" xml:space="preserve">
+    <value>CounterKvp2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Електроенергія</value>
+  </data>
+  <data name="&gt;&gt;CounterGov1.Name" xml:space="preserve">
+    <value>CounterGov1</value>
+  </data>
+  <data name="CounterKvp1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 24</value>
+  </data>
+  <data name="CounterEEn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="CounterOpa2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="&gt;&gt;CounterKan2.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="DifferenceOpa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 121</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DifferenceEEn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 53</value>
+  </data>
+  <data name="CounterOpa2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Показання лічильника</value>
+  </data>
+  <data name="DifferenceGov.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 155</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="&gt;&gt;GavSum.Name" xml:space="preserve">
+    <value>GavSum</value>
+  </data>
+  <data name="&gt;&gt;GovSum.Name" xml:space="preserve">
+    <value>GovSum</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 16</value>
+  </data>
+  <data name="GavSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKan.Name" xml:space="preserve">
+    <value>DifferenceKan</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;CounterHov1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OpaSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 121</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="CounterGov1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 155</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HovSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 189</value>
+  </data>
+  <data name="&gt;&gt;DifferenceHov.Name" xml:space="preserve">
+    <value>DifferenceHov</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceGav.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;Show.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="labelSelectedMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="DifferenceOpa.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterEEn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 53</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKan.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="DifferenceKvp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 87</value>
+  </data>
+  <data name="&gt;&gt;SumEEn.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;GavSum.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;CounterGov1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 31</value>
+  </data>
+  <data name="CounterKan2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;labelSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 206</value>
+  </data>
+  <data name="CounterOpa2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 121</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CounterGav1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CounterOpa1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 121</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Опалення</value>
+  </data>
+  <data name="&gt;&gt;CounterGao2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CounterHov2.Name" xml:space="preserve">
+    <value>CounterHov2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SumEEn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterGav1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterKvp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;KanSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GaoSum.Name" xml:space="preserve">
+    <value>GaoSum</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 24</value>
+  </data>
+  <data name="DifferenceGav.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Year_CB.Name" xml:space="preserve">
+    <value>Year_CB</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GaoSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CounterHov1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGao.Name" xml:space="preserve">
+    <value>DifferenceGao</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="CounterHov2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 56</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="&gt;&gt;CounterKan1.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="GaoSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 291</value>
+  </data>
+  <data name="&gt;&gt;buttonStat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HovSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Name" xml:space="preserve">
+    <value>labelDate</value>
+  </data>
+  <data name="&gt;&gt;KvpSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
+  </data>
+  <data name="CounterGav2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="CounterGov1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Year_CB.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="CounterGav2.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="CounterGao2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 291</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;CounterHov2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeLocale.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GovSum.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;buttonStat.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Show.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 29</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Show.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelSelectedMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="buttonStat.Text" xml:space="preserve">
+    <value>Cтатистика</value>
+  </data>
+  <data name="&gt;&gt;KvpSum.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 67</value>
+  </data>
+  <data name="&gt;&gt;KanSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="Pay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 31</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterKan1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CounterHov1.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CounterEEn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;Pay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKvp.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 118</value>
+  </data>
+  <data name="&gt;&gt;CounterKan2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="KanSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeLocale.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterGav2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="CounterKan1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="KanSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 223</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DifferenceGov.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceKvp.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;CounterHov1.Name" xml:space="preserve">
+    <value>CounterHov1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="DifferenceOpa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="CounterKvp2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 87</value>
+  </data>
+  <data name="CounterOpa1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGov.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedYear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CounterGao1.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>日本の</value>
+  </data>
+  <data name="labelSelectedYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GovSum.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Різн</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;Show.Name" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="CounterKvp1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 87</value>
+  </data>
+  <data name="GavSum.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Послуги:</value>
+  </data>
+  <data name="buttonStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;CounterGav2.Name" xml:space="preserve">
+    <value>CounterGav2</value>
+  </data>
+  <data name="&gt;&gt;CounterHov1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedYear.Name" xml:space="preserve">
+    <value>labelSelectedYear</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CounterEEn2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="DifferenceKan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 223</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMonth.Name" xml:space="preserve">
+    <value>labelSelectedMonth</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Рiк: </value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Період</value>
+  </data>
+  <data name="Show.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 125</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Рік</value>
+  </data>
+  <data name="&gt;&gt;CounterKan2.Name" xml:space="preserve">
+    <value>CounterKan2</value>
+  </data>
+  <data name="CounterGov1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;CounterGov2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;DifferenceOpa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpaSum.Name" xml:space="preserve">
+    <value>OpaSum</value>
+  </data>
+  <data name="Pay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 639</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;OpaSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterOpa1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;Month_CB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Холодна вода</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonStat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CounterGov2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 29</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DifferenceHov.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="CounterKvp1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CounterGao1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 291</value>
+  </data>
+  <data name="CounterGov2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;CounterGov2.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DifferenceKan.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;GaoSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGav.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="buttonChangeLocale.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DifferenceHov.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CounterGao1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DifferenceEEn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 192</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="buttonChangeLocale.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>한국의</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedYear.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKan.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;labelSum.Name" xml:space="preserve">
+    <value>labelSum</value>
+  </data>
+  <data name="&gt;&gt;DifferenceOpa.Name" xml:space="preserve">
+    <value>DifferenceOpa</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Гаряча вода</value>
+  </data>
+  <data name="&gt;&gt;Month_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 25</value>
+  </data>
+  <data name="&gt;&gt;KvpSum.Name" xml:space="preserve">
+    <value>KvpSum</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DifferenceGao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 291</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 121</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 12</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Платіжна система комунальних послуг</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 371</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>קוריאני</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;DifferenceHov.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Обрана мова</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGav.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="labelSelectedMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 63</value>
+  </data>
+  <data name="Show.Text" xml:space="preserve">
+    <value>Показати</value>
+  </data>
+  <data name="CounterKan2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 223</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;DifferenceGov.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Місяць:</value>
+  </data>
+  <data name="CounterKan2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Month_CB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 32</value>
+  </data>
+  <data name="DifferenceGao.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;HovSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="DifferenceGav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 257</value>
+  </data>
+  <data name="&gt;&gt;GaoSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;HovSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SumEEn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 16</value>
+  </data>
+  <data name="&gt;&gt;DifferenceKvp.Name" xml:space="preserve">
+    <value>DifferenceKvp</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeLocale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterOpa1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="Year_CB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 32</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="DifferenceKvp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="SumEEn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 29</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 260</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="GaoSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 29</value>
+  </data>
+  <data name="CounterGao2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GaoSum.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;labelSum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GavSum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;HovSum.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="buttonChangeLocale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 25</value>
+  </data>
+  <data name="DifferenceGav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 29</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 90</value>
+  </data>
+  <data name="&gt;&gt;Pay.Name" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="&gt;&gt;GovSum.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;CounterEEn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;CounterGao2.Name" xml:space="preserve">
+    <value>CounterGao2</value>
+  </data>
+  <data name="&gt;&gt;labelSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CounterKvp1.Name" xml:space="preserve">
+    <value>CounterKvp1</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="KvpSum.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr-FR</value>
+  </metadata>
+</root>
